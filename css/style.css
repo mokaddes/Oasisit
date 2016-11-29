@@ -1,0 +1,200 @@
+#header{
+    background-image: url("../img/picjumbo.com_IMG_4340.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    
+}
+.slider{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0;
+    padding-bottom: 40px;
+    padding-top: 20px
+}
+.hr{
+    margin-top: 13px;
+    padding: 0;
+}
+#myNavbar a{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+}
+#myNavbar a:hover{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 13px;
+    background-color: darkgray;
+}
+.icon-bar{
+    color: #ddd;
+}
+span{
+    color: aqua;
+    background-color: black;
+}
+#myNavbar{
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.brand-img img{
+    width: inherit;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+    opacity: .5
+}
+.search{
+    background-color: #333;
+    opacity: .7;
+    position: fixed;
+    padding-top: 20px;
+    z-index: 999;
+    width: 100%;
+    height: 200px;
+    display: none;
+}
+.btn-close{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    z-index: 999;
+}
+.input-group{
+    position: absolute;
+    top: 100px;
+    width: 50%;
+    left: 25%;
+}
+#socail{
+    padding-bottom: 30px;
+    padding-top: 50px;
+    text-align: center;
+}
+#socail a{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 7px 4px 7px 4px;
+    background-color: gray;
+}
+#socail .fa{
+    padding: 10px;
+}
+#socail a:first-child{
+    padding: 7px 5px;
+}
+#socail a:hover{
+    background-color: dodgerblue;
+}
+.down-button a{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 1px;
+}
+.down-button{
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.down-button .fa .fa-angle-double-down{
+    padding: 10px 1px;
+}
+.down-button i{
+    padding: 10px 1px 10px 1px;
+    animation-duration: 2s; 
+    animation-delay: 1s;
+    animation-name: fadeInDown;
+}
+.section_heading{
+    text-align: center;
+    text-transform: uppercase;
+    color: mediumvioletred;
+    padding-top: 80px;
+}
+#about p{
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+#about button{
+    text-align: center;
+    padding: 12px 20px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin-top: 70px;
+    vertical-align: middle;
+}
+#about button:hover{
+    background-color: mediumvioletred;
+    border: 1px solid mediumvioletred;
+}
+#about .button{
+    width: 130px;
+    margin: 0 auto;
+}
+#about button a{
+    color: black;
+}
+#service .col-sm-6{
+    padding: 0;
+}
+#service .service_heading{
+    padding-top: 60px;
+    text-transform: uppercase;
+}
+#service .row{
+    background-color: #ddd;
+}
+#service .row p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    margin-top: 50px;
+}
+#carrer .container{
+    background-image: url(../img/slider2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin-top: 50px;
+}
+#myCarousel{
+    background-color: rgba(0,0,0,.5);
+}
+#myCarousel .slider-header{
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+#myCarousel .item p{
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    padding-bottom: 80px;
+    line-height: 2em;
+    font-size: 16px;
+}
+#myCarousel .slidercontrol a{
+    position: absolute;
+    top: 50%;
+    background: none;
+}
+#carrer .input a{
+    font-size: 19px;
+    color: #fff;
+    padding: 5px;
+}
+#carrer .input input{
+    background: none;
+    height: 32px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+#carrer .input{
+    padding-bottom: 15px;
+    color: #fff;
+}
