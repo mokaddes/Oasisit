@@ -6,10 +6,10 @@
     
     <!-- css link -->
     
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     
 </head>
 
@@ -66,10 +66,9 @@
                         <li><a href="#service">service</a></li>
                         <li><a href="#contact">contact</a></li>
                         <li class="search-icon" id="search"><a><i class="fa fa-search"></i></a></li>
+                    </ul>
                 </div>
-            </div>
-        </nav>
-        <!-- Search box hidden -->
+        
         <div class="search">
             <div id="btn">
                 <button type="button" class="btn btn-default btn-close">Close</button>
@@ -81,7 +80,8 @@
                 </span>
             </div>
         </div>
-        
+            </div>
+                </nav>
         <!-- navbar end -->
         
         <!-- brand image -->
@@ -104,7 +104,7 @@
             </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quibusdam labore velit nesciunt quasi dolorum dolores natus quos et? Id quas eveniet neque, ea sint at saepe autem! Nemo, architecto!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, provident. At cum error voluptates harum expedita aperiam officia ullam eum. Ipsam libero deleniti ad enim suscipit quam velit distinctio. Sint.</p>
                 <div class="button">
-                    <button type="button" class="btn btn-defult"><a href="">READ MORE</a></button>
+                    <button type="button" class="btn btn-defult">READ MORE</button>
                 </div>
         </div>
         <div id="service" class="container">
@@ -248,7 +248,7 @@
                         <div class="input">
                             <form>
                         <div class="form-group">
-                            <input type="name" class="form-control" id="name" placeholder="Your Name">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control" id="email" placeholder="Your Email">
@@ -257,7 +257,7 @@
                             <input type="text" placeholder="Subject" class="form-control" id="subject">
                         </div>
                         <div class="form-group">
-                            <textarea name="" id="msg" cols="30" rows="10" placeholder="Massage" class="form-control"></textarea>
+                            <textarea id="msg" cols="30" rows="10" placeholder="Massage" class="form-control"></textarea>
                         </div>
                         <button type="submit" class="btn btn-default form-control">Send</button>
                     </form>
@@ -265,7 +265,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-xs-12 google-map col">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.510338329882!2d88.62933231402604!3d24.36354398429072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefaf17cb0673%3A0xbb1cf0034f8d5f95!2sOasis+IT+Ltd!5e0!3m2!1sen!2sbd!4v1467112172218" width="100%" height="593" frameborder="0" style="border:0" allowfullscreen="">                            </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3634.510338329882!2d88.62933231402604!3d24.36354398429072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefaf17cb0673%3A0xbb1cf0034f8d5f95!2sOasis+IT+Ltd!5e0!3m2!1sen!2sbd!4v1467112172218" width="100%" height="593" frameborder="0" style="border:0" allowfullscreen="" id="map">                            </iframe>
                 </div>
             </div>
         </div>
@@ -278,7 +278,7 @@
                     <hr>
                 </div>
                 <div class="col-sm-6 col-md-6 col-xs-6 form">
-                    <form action="" class="form-inline">
+                    <form action="input" class="form-inline">
                         <input class="inputmail" type="email" placeholder="your email">
                         <button class="btnswip">SUBSCRIBE</button>
                     </form>
@@ -287,7 +287,7 @@
                     <hr>
                 </div>
             </div>
-            <div id="socail" class="text-center">
+            <div id="socail-2" class="text-center">
                 <a href="" class="font-awesome fa-1x"><i class="fa fa-facebook"></i></a>
                 <a href="" class="font-awesome fa-1x"><i class="fa fa-twitter"></i></a>
                 <a href="" class="font-awesome fa-1x"><i class="fa fa-youtube"></i></a>
