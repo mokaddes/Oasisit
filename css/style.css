@@ -306,9 +306,14 @@ span{
     background-color: #D0323C;
 }
 #footer input{
-   height: 100px;
+    height: 100px;
     border: 1px solid #fff;
-   border-radius: 50px;
+    border-radius: 50px;
+    width: 70%;
+    outline: none;
+}
+.inputmail{
+    border: none;
 }
 #footer .row{
     padding-bottom: 50px;
